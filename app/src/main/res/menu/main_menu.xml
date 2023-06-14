@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/manageDevice"
+            android:title="@string/manage_device"
+           />
+
+        <item
+            android:id="@+id/userManual"
+            android:title="@string/user_manual"
+           />
+
+
+        <item
+            android:id="@+id/tAndc"
+            android:title="@string/terms_and_condition"
+            />
+
+</menu>

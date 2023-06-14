@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Domestic_Animal_Tracking</string>
+    <string name="manage_device">Manage Device</string>
+    <string name="user_manual">User Manual</string>
+    <string name="terms_and_condition">Terms And Condition</string>
+    <string name="home">home</string>
+    <string name="notifications">notifications</string>
+    <string name="settings">settings</string>
+    <string name="account">account</string>
+    <string name="alarm">Alarm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alarm_01">Alarm</string>
 </resources>
