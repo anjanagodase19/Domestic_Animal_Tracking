@@ -1,9 +1,18 @@
 package com.example.domestic_animal_tracking;
+
 import androidx.fragment.app.Fragment;
 
-public class AccountFragment extends Fragment {
 
-    public AccountFragment() {
+public class ManageDeviceFragment extends Fragment {
+
+
+
+    public ManageDeviceFragment() {
         // Required empty public constructor
     }
+
+
+
+
+
 }

@@ -7,16 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <FrameLayout
+    <com.google.android.material.circularreveal.CircularRevealFrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/frame_layout">
+        android:id="@+id/frame_layout"/>
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        app:liftOnScroll="true">
+        app:liftOnScroll="true"
+        android:background="@color/Gray">
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/materialToolbar"
@@ -28,18 +29,17 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@android:color/darker_gray"
+            app:fabCradleRoundedCornerRadius="50dp"
+            app:labelVisibilityMode="labeled"
+            app:layout_anchor="@+id/frame_layout"
+            app:layout_anchorGravity="bottom|center"
+            app:menu="@menu/menu_main_navigation" />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigationView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:background="@android:color/transparent"
-        app:fabCradleRoundedCornerRadius="50dp"
-        app:labelVisibilityMode="labeled"
-        app:layout_anchor="@+id/frame_layout"
-        app:layout_anchorGravity="bottom|center"
-        app:menu="@menu/menu_main_navigation" />
 
-    </FrameLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

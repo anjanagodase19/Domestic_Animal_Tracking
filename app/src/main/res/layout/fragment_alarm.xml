@@ -5,13 +5,11 @@
     android:layout_height="match_parent"
     tools:context=".AlarmFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.google.android.material.textfield.MaterialAutoCompleteTextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/alarm_01"
         android:gravity="center"
-        android:textSize="30sp"
-        android:textColor="@color/black"/>
+        android:text="@string/alarm"
+        />
 
 </FrameLayout>
